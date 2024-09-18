@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+
+About
+</title>
+<link rel='stylesheet' href='css/woocommerce-layout.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)'/>
+<link rel='stylesheet' href='css/woocommerce.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='style.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald:400,500,700%7CRoboto:400,500,700%7CHerr+Von+Muellerhoff:400,500,700%7CQuattrocento+Sans:400,500,700' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/easy-responsive-shortcodes.css' type='text/css' media='all'/>
+</head>
+<body class="home page page-template page-template-template-portfolio page-template-template-portfolio-php">
+
+
+<div id="page">
+	<div class="container">
+		<header id="masthead" class="site-header">
+		<div class="site-branding">
+			<h1 class="site-title"><a href="index.php" rel="home">IQ tesst</a></h1>
+			<h2 id='heading123' class="site-description"> </h2>
+
+		</div>
+		<nav id="site-navigation" class="main-navigation">
+		<button class="menu-toggle">Menu</button>
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+		<div class="menu-menu-1-container">
+
+			<ul id="menu-menu-1" class="menu">
+				<li><a href="index.php">Home</a></li>
+				<li><a href="test.php">TEST</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="contact.html">Contact us</a></li>
+
+				<li><a href="#sub">Pages</a>
+				<ul id="sub" class="sub-menu">
+					<li><a href="privacy.html">privacy</a></li>
+					<li><a href="tnc.html">terms&conditions</a></li>
+					<li><a href="disclaimer.html">disclaimer</a></li>
+
+				</ul>
+				</li>
+
+			</ul>
+		</div>
+		</nav>
+		</header>
+		<!-- #masthead -->
+		<div id="content" class="site-content">
+			<div id="primary" class="content-area column full">
+				<main id="main" class="site-main">
+				
+
+
+				<article class="hentry">
+				<header class="entry-header">
+				<h1 class="entry-title">About us</h1>	
+				</header>
+				<!-- .entry-header -->
+
+				<div class="entry-content">
+
+<pre style='white-space:pre-wrap'>
+
+Welcome to IQTesst.com, a free online platform that provides mock tests for a wide range of government exams. Our goal is to help students prepare and excel in their exams, regardless of their financial situation.
+Founded by Harish Verma, IQTesst.com is a result of his passion and dedication to support and empower students in achieving their career goals. Our platform offers mock tests designed by experts with years of experience in the industry, covering various topics and subjects. Our tests are regularly updated to reflect changes in exam patterns.
+We offer personalized reports after each mock test, providing detailed insights into a student's performance and highlighting areas that need improvement. Our platform is fast, reliable, and secure, thanks to our investment in the latest technologies.
+At IQTesst.com, we are committed to providing the best possible experience for our users. Our team is always available to provide support and assistance, and we welcome feedback and suggestions to improve our services.
+Thank you for choosing IQTesst.com. We are confident that our platform will help you prepare and succeed in your government exams.
+ 
+</pre>
+				<h2 style="font-family: 'Herr Von Muellerhoff';color:#ccc;font-weight:300;">
+
+
+The IQ tesst Head
+</h2>
+				</div><!-- .entry-content -->
+				</article>
+
+				
+				</main>
+				<!-- #main -->
+			</div>
+			<!-- #primary -->
+		</div>
+		<!-- #content -->
+	</div>
+	<!-- .container -->
+
+	<footer id="colophon" class="site-footer">
+	<div class="container">
+		<div class="site-info">
+			<h1 style="font-family: 'Herr Von Muellerhoff';color: #ccc;font-weight:300;text-align: center;margin-bottom:0;margin-top:0;line-height:1.4;font-size: 46px;">IQtesst.Com</h1>
+			 <a target="blank" href="https://www.iqtesst.com/">&copy; IQ tesst 2022</a>
+		</div>
+	</div>	
+	</footer>
+	<a href="#top" class="smoothup" title="Back to top"><span class="genericon genericon-collapse">Top</span></a>
+</div>
+<!-- #page -->
+<script src='js/jquery.js'></script>
+<script src='js/plugins.js'></script>
+<script src='js/scripts.js'></script>
+<script src='js/masonry.pkgd.min.js'></script>
+<script>
+
+function fun(){
+  var xhttp = new XMLHttpRequest();
+
+  xhttp.onreadystatechange = function() {
+
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("heading123").innerHTML =
+      this.responseText;
+
+    }
+  };
+
+  xhttp.open("GET", "heading.php", true);
+
+  xhttp.send();
+
+}
+fun();
+
+</script>
+
+</body>
+</html>

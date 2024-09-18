@@ -1,0 +1,180 @@
+﻿
+<?php
+include 'znmd2010/katrina.php';
+
+$table1 = 'mahavachan';
+$var = rand(1,15);
+
+$select11 = "SELECT * FROM $table1 WHERE id = '$var'";
+$result11 = mysqli_query($conn, $select11);
+mysqli_num_rows($result11);
+$row11 = mysqli_fetch_array($result11);
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+
+Disclaimer
+</title>
+<link rel='stylesheet' href='css/woocommerce-layout.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)'/>
+<link rel='stylesheet' href='css/woocommerce.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='style.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald:400,500,700%7CRoboto:400,500,700%7CHerr+Von+Muellerhoff:400,500,700%7CQuattrocento+Sans:400,500,700' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/easy-responsive-shortcodes.css' type='text/css' media='all'/>
+
+
+<style>
+  [data-custom-class='body'], [data-custom-class='body'] * {
+          background: transparent !important;
+        }
+[data-custom-class='title'], [data-custom-class='title'] * {
+          font-family: Arial !important;
+font-size: 26px !important;
+color: #000000 !important;
+        }
+[data-custom-class='subtitle'], [data-custom-class='subtitle'] * {
+          font-family: Arial !important;
+color: #595959 !important;
+font-size: 14px !important;
+        }
+[data-custom-class='heading_1'], [data-custom-class='heading_1'] * {
+          font-family: Arial !important;
+font-size: 19px !important;
+color: #000000 !important;
+        }
+[data-custom-class='heading_2'], [data-custom-class='heading_2'] * {
+          font-family: Arial !important;
+font-size: 17px !important;
+color: #000000 !important;
+        }
+[data-custom-class='body_text'], [data-custom-class='body_text'] * {
+          color: #595959 !important;
+font-size: 14px !important;
+font-family: Arial !important;
+        }
+[data-custom-class='link'], [data-custom-class='link'] * {
+          color: #3030F1 !important;
+font-size: 14px !important;
+font-family: Arial !important;
+word-break: break-word !important;
+        }
+</style>
+
+
+</head>
+<body class="home page page-template page-template-template-portfolio page-template-template-portfolio-php">
+
+
+<div id="page">
+	<div class="container">
+		<header id="masthead" class="site-header">
+		<div class="site-branding">
+			<h1 class="site-title"><a href="index.php" rel="home">IQ tesst</a></h1>
+			<h2 id='heading123' class="site-description"> </h2>
+
+		</div>
+		<nav id="site-navigation" class="main-navigation">
+		<button class="menu-toggle">Menu</button>
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+		<div class="menu-menu-1-container">
+
+			<ul id="menu-menu-1" class="menu">
+				<li><a href="index.php">Home</a></li>
+				<li><a href="test.php">TEST</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="contact.html">Contact us</a></li>
+
+				<li><a href="#sub">Pages</a>
+				<ul id="sub" class="sub-menu">
+					<li><a href="privacy.html">privacy</a></li>
+					<li><a href="tnc.html">terms&conditions</a></li>
+					<li><a href="disclaimer.html">disclaimer</a></li>
+
+				</ul>
+				</li>
+
+			</ul>
+		</div>
+		</nav>
+		</header>
+		<!-- #masthead -->
+		<div id="content" class="site-content">
+			<div id="primary" class="content-area column full">
+				<main id="main" class="site-main">
+				
+
+<h1>Disclaimer for iqtesst.com</h1>
+
+<pre style='white-space:pre-wrap'>
+
+The information contained on iqtesst.com website (the "Service") is for general information purposes only. The information is provided by iqtesst.com and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
+In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.
+Through this website, you are able to link to other websites which are not under the control of iqtesst.com. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.
+Every effort is made to keep the website up and running smoothly. However, iqtesst.com takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.
+We do not claim ownership or authorship of the content of the mock tests on our Site. The questions and answers in our mock tests are sourced from the internet for educational purposes.
+Any opinions or views expressed in the guest posts published on our Site are those of the authors and do not necessarily reflect the opinions or views of iqtesst.com.
+In the event of any discrepancies between the information on our Site and the official information from the respective government agencies, the official information shall prevail.
+We reserve the right to modify or discontinue, temporarily or permanently, the Service (or any part thereof) with or without notice.
+By using our Site, you agree to indemnify and hold iqtesst.com, its owners, directors, officers, employees, agents, and content suppliers, harmless from any claim or demand, including reasonable attorneys' fees, made by any third party due to or arising out of your use of the Site or your violation of these Terms.
+If you have any questions or concerns about this disclaimer, please contact us at iqtesst@gmail.com.
+
+</pre>
+
+
+				
+				</main>
+				<!-- #main -->
+			</div>
+			<!-- #primary -->
+		</div>
+		<!-- #content -->
+	</div>
+	<!-- .container -->
+	<footer id="colophon" class="site-footer">
+	<div class="container">
+		<div class="site-info">
+			<h1 style="font-family: 'Herr Von Muellerhoff';color: #ccc;font-weight:300;text-align: center;margin-bottom:0;margin-top:0;line-height:1.4;font-size: 46px;">IQtesst.Com</h1>
+			 <a target="blank" href="https://www.iqtesst.com/">&copy; IQ tesst 2022</a>
+		</div>
+	</div>	
+	</footer>
+	<a href="#top" class="smoothup" title="Back to top"><span class="genericon genericon-collapse">Top</span></a>
+</div>
+<!-- #page -->
+<script src='js/jquery.js'></script>
+<script src='js/plugins.js'></script>
+<script src='js/scripts.js'></script>
+<script src='js/masonry.pkgd.min.js'></script>
+<script>
+
+function fun(){
+  var xhttp = new XMLHttpRequest();
+
+  xhttp.onreadystatechange = function() {
+
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("heading123").innerHTML =
+      this.responseText;
+
+    }
+  };
+
+  xhttp.open("GET", "heading.php", true);
+
+  xhttp.send();
+
+}
+fun();
+
+</script>
+
+</body>
+</html>
